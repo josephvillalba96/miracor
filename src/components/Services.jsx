@@ -14,7 +14,7 @@ const Services = () => {
       title: 'Equipos de Protección',
       description: 'Suministro de EPP certificados para garantizar la seguridad de los trabajadores en todas las obras.',
       icon: <HardHat size={24} />,
-      image: '/assets/services/chalecos_ingenieros.jpg'
+      image: '/assets/services/chaleco_reflectivo.jpg'
     },
     {
       id: 3,
@@ -28,7 +28,7 @@ const Services = () => {
       title: 'Asesoría en Seguridad',
       description: 'Consultoría especializada en seguridad industrial y diseño de protocolos de protección laboral.',
       icon: <Shield size={24} />,
-      image: '/assets/services/supervision_tecnica_1.png'
+      image: '/assets/services/supervision_tecnica_2.jpg'
     }
   ]
 

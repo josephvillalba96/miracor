@@ -194,7 +194,7 @@ const Home = () => {
           <div className="features-grid">
             <div className="feature-block">
               <div className="feature-image">
-                <img src="/assets/about_1.png" alt="Equipos de protección personal de alta calidad" />
+                <img src="/assets/services/about_1.png" alt="Equipos de protección personal de alta calidad" />
               </div>
               <div className="feature-accent"></div>
               <h3 className="feature-title">Alta Calidad</h3>

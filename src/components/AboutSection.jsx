@@ -36,7 +36,7 @@ const AboutSection = () => {
               </div>
               <div className="image-overlay">
                 <img 
-                  src="/assets/about_1.png" 
+                  src="/assets/services/about_1.png" 
                   alt="Equipos de protección personal: cascos, guantes, gafas de seguridad" 
                   className="overlay-image"
                 />
