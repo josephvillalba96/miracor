@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64" height="64" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+  <!-- Brand background (primary) -->
+  <rect x="0" y="0" width="32" height="32" rx="6" fill="#FF6600"/>
+  <!-- Logo strokes in white -->
+  <path d="M4 24V8L16 2L28 8V24L16 30L4 24Z" stroke="#FFFFFF" stroke-width="2" fill="none"/>
+  <path d="M4 24L16 18L28 24" stroke="#FFFFFF" stroke-width="2" fill="none"/>
+  <path d="M16 2V18" stroke="#FFFFFF" stroke-width="2"/>
+  <path d="M8 12L16 8L24 12" stroke="#FFFFFF" stroke-width="2" fill="none"/>
+</svg>

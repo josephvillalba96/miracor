@@ -248,7 +248,7 @@ const Projects = () => {
             flexWrap: 'wrap' 
           }}>
             <a 
-              href="https://wa.me/573212461567" 
+              href="https://wa.me/573219714991" 
               target="_blank" 
               rel="noopener noreferrer"
               style={{ 

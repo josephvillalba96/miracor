@@ -6,25 +6,29 @@ const Services = () => {
       id: 1,
       title: 'Construcción Industrial',
       description: 'Proyectos de construcción y mantenimiento industrial con los más altos estándares de calidad y seguridad.',
-      icon: <Building size={24} />
+      icon: <Building size={24} />,
+      image: '/assets/services/planta_aditivos.webp'
     },
     {
       id: 2,
       title: 'Equipos de Protección',
       description: 'Suministro de EPP certificados para garantizar la seguridad de los trabajadores en todas las obras.',
-      icon: <HardHat size={24} />
+      icon: <HardHat size={24} />,
+      image: '/assets/services/chalecos_ingenieros.jpg'
     },
     {
       id: 3,
       title: 'Proyectos Comerciales',
       description: 'Desarrollo de proyectos comerciales e industriales con tecnología de vanguardia y materiales premium.',
-      icon: <Wrench size={24} />
+      icon: <Wrench size={24} />,
+      image: '/assets/services/centros_comerciales.jpg'
     },
     {
       id: 4,
       title: 'Asesoría en Seguridad',
       description: 'Consultoría especializada en seguridad industrial y diseño de protocolos de protección laboral.',
-      icon: <Shield size={24} />
+      icon: <Shield size={24} />,
+      image: '/assets/services/supervision_tecnica_1.png'
     }
   ]
 
@@ -64,18 +68,24 @@ const Services = () => {
           <div className="services-grid">
             {services.map((service, index) => (
               <div key={service.id} className="service-card">
-                <div className="service-icon">
-                  {service.icon}
+                <div className="service-image">
+                  <img src={service.image} alt={service.title} />
+                  <div className="service-overlay"></div>
                 </div>
-                <h3 className="service-title">{service.title}</h3>
-                <p className="service-description">{service.description}</p>
+                <div className="service-content">
+                  <div className="service-icon">
+                    {service.icon}
+                  </div>
+                  <h3 className="service-title">{service.title}</h3>
+                  <p className="service-description">{service.description}</p>
+                </div>
               </div>
             ))}
           </div>
         </div>
       </div>
 
-      <style jsx>{`
+      <style>{`
         .services-section {
           background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
           color: #ffffff;
@@ -184,12 +194,12 @@ const Services = () => {
 
         .service-card {
           background: #2a2a2a;
-          padding: 1.5rem;
           border-radius: 10px;
           border: 1px solid #3a3a3a;
           transition: all 0.3s ease;
           position: relative;
           overflow: hidden;
+          height: 280px;
         }
 
         .service-card::before {
@@ -212,6 +222,46 @@ const Services = () => {
 
         .service-card:hover::before {
           transform: scaleX(1);
+        }
+
+        .service-image {
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          z-index: 1;
+        }
+
+        .service-image img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          transition: transform 0.3s ease;
+        }
+
+        .service-overlay {
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          background: linear-gradient(135deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.4) 100%);
+          z-index: 2;
+        }
+
+        .service-content {
+          position: relative;
+          z-index: 3;
+          padding: 1.5rem;
+          height: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-end;
+        }
+
+        .service-card:hover .service-image img {
+          transform: scale(1.05);
         }
 
         .service-icon {
@@ -274,7 +324,11 @@ const Services = () => {
           }
 
           .service-card {
-            padding: 1.5rem;
+            height: 250px;
+          }
+
+          .service-content {
+            padding: 1.25rem;
           }
         }
 
@@ -292,7 +346,11 @@ const Services = () => {
           }
 
           .service-card {
-            padding: 1.25rem;
+            height: 220px;
+          }
+
+          .service-content {
+            padding: 1rem;
           }
 
           .service-icon {

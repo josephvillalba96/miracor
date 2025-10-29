@@ -98,19 +98,19 @@ const Footer = () => {
               <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
                 <Phone size={16} />
                 <a 
-                  href="tel:+573212461567" 
+                  href="tel:+573219714991" 
                   style={{ color: 'var(--color-white)', opacity: 0.9, fontSize: '0.9rem' }}
                 >
-                  321 246 1567
+                  321 971 4991
                 </a>
               </div>
               <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
                 <Mail size={16} />
                 <a 
-                  href="mailto:gerencia@construmiracor.com" 
+                  href="mailto:atencionalcliente@miracor.com.co" 
                   style={{ color: 'var(--color-white)', opacity: 0.9, fontSize: '0.9rem' }}
                 >
-                  gerencia@construmiracor.com
+                  atencionalcliente@miracor.com.co
                 </a>
               </div>
             </div>
@@ -124,7 +124,7 @@ const Footer = () => {
           opacity: 0.7
         }}>
           <p style={{ margin: 0 }}>
-            © 2024 MIRACOR S.A.S. Todos los derechos reservados.
+            © {new Date().getFullYear()} MIRACOR S.A.S. Todos los derechos reservados.
           </p>
           <p style={{ margin: '0.5rem 0 0 0', fontSize: '0.8rem' }}>
             <a href="/privacidad" style={{ color: 'var(--color-white)', opacity: 0.7 }}>

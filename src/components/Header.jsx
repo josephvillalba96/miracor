@@ -14,7 +14,6 @@ const Header = () => {
     { path: '/', label: 'Inicio' },
     { path: '/nosotros', label: 'Nosotros' },
     { path: '/productos', label: 'Servicios' },
-    { path: '/proyectos', label: 'Proyectos' },
     { path: '/contacto', label: 'Contacto' }
   ]
 
@@ -26,10 +25,10 @@ const Header = () => {
           <Link to="/" className="logo">
             <div className="logo-icon">
               <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M4 24V8L16 2L28 8V24L16 30L4 24Z" stroke="var(--color-text)" strokeWidth="2" fill="none"/>
-                <path d="M4 24L16 18L28 24" stroke="var(--color-text)" strokeWidth="2" fill="none"/>
-                <path d="M16 2V18" stroke="var(--color-text)" strokeWidth="2"/>
-                <path d="M8 12L16 8L24 12" stroke="var(--color-text)" strokeWidth="2" fill="none"/>
+                <path d="M4 24V8L16 2L28 8V24L16 30L4 24Z" stroke="var(--color-primary)" strokeWidth="2" fill="none"/>
+                <path d="M4 24L16 18L28 24" stroke="var(--color-primary)" strokeWidth="2" fill="none"/>
+                <path d="M16 2V18" stroke="var(--color-primary)" strokeWidth="2"/>
+                <path d="M8 12L16 8L24 12" stroke="var(--color-primary)" strokeWidth="2" fill="none"/>
               </svg>
             </div>
             <div className="logo-text">
@@ -101,9 +100,11 @@ const Header = () => {
           justify-content: center;
           width: 40px;
           height: 40px;
-          background: linear-gradient(135deg, var(--color-primary), var(--color-text));
+          background: var(--color-white);
+          border: 1px solid var(--color-primary);
           border-radius: 8px;
-          color: var(--color-white);
+          color: var(--color-text);
+          box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
         }
 
         .logo-text {
