@@ -32,6 +32,8 @@ const AboutSection = () => {
                   src="/assets/porque_nosotros_1.jpg" 
                   alt="Trabajador con equipos de protección personal completo en obra industrial" 
                   className="main-image"
+                  loading="lazy"
+                  decoding="async"
                 />
               </div>
               <div className="image-overlay">
@@ -39,6 +41,8 @@ const AboutSection = () => {
                   src="/assets/services/about_1.png" 
                   alt="Equipos de protección personal: cascos, guantes, gafas de seguridad" 
                   className="overlay-image"
+                  loading="lazy"
+                  decoding="async"
                 />
               </div>
             </div>

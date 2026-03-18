@@ -39,12 +39,11 @@ const Services = () => {
           {/* Left Column - Description */}
           <div className="services-description">
             <div className="services-subtitle">
-              <div className="services-line"></div>
-              <span>Servicios</span>
+              <div className="services-line"  style={{background:'#fff'}}></div>
+              <span style={{ color: '#fff' }}>Servicios</span>
             </div>
             <h2 className="services-title">
-              Artesanía Excepcional, Experiencia: 
-              <span className="services-highlight"> Experiencia Inigualable</span>: Nuestra Promesa Para Ti
+              <span className="services-highlight" style={{ color: '#fff' }}> Experiencia Inigualable</span>: Nuestra Promesa Para Ti
             </h2>
             <div className="services-text">
               <p>
@@ -69,7 +68,7 @@ const Services = () => {
             {services.map((service, index) => (
               <div key={service.id} className="service-card">
                 <div className="service-image">
-                  <img src={service.image} alt={service.title} />
+                  <img src={service.image} alt={service.title} loading="lazy" decoding="async" />
                   <div className="service-overlay"></div>
                 </div>
                 <div className="service-content">

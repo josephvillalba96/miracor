@@ -32,8 +32,8 @@ const Header = () => {
               </svg>
             </div>
             <div className="logo-text">
-              <span className="logo-main">MIRACOR</span>
-              <span className="logo-accent">S.A.S.</span>
+              <span className="logo-main" style={{ fontSize: '1.2rem' }}>SUMINISTROS</span>
+              <span className="logo-accent">YODALIS</span>
             </div>
           </Link>
           

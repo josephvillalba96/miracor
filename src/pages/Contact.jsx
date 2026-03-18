@@ -108,7 +108,7 @@ const Contact = () => {
               alignItems: 'center'
             }}>
               <a 
-                href="https://wa.me/573219714991" 
+                href="https://wa.me/573017071618" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 style={{ 
@@ -410,7 +410,7 @@ const Contact = () => {
                   width="100%"
                   height="100%"
                   style={{ border: 'none' }}
-                  title="Ubicación de MIRACOR S.A.S. en Barranquilla"
+                  title="Ubicación de Suministros Yodalis en Barranquilla"
                 />
               </div>
               
@@ -447,7 +447,7 @@ const Contact = () => {
               {/* Quick Contact Buttons */}
               <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
                 <a 
-                  href="https://wa.me/573219714991" 
+                  href="https://wa.me/573017071618" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="btn-primary"
@@ -464,7 +464,7 @@ const Contact = () => {
                 </a>
                 
                 <a 
-                  href="tel:+573219714991"
+                  href="tel:+573017071618"
                   className="btn-secondary"
                   style={{ 
                     display: 'flex', 
@@ -479,7 +479,7 @@ const Contact = () => {
                 </a>
                 
                 <a 
-                  href="mailto:atencionalcliente@miracor.com.co"
+                  href="mailto:yodalismendozaelle@gmail.com"
                   className="btn-secondary"
                   style={{ 
                     display: 'flex', 

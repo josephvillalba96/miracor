@@ -72,7 +72,7 @@ const Home = () => {
               alignItems: 'center'
             }}>
               <a 
-                href="https://wa.me/573219714991" 
+                href="https://wa.me/573017071618" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 style={{ 
@@ -194,7 +194,7 @@ const Home = () => {
           <div className="features-grid">
             <div className="feature-block">
               <div className="feature-image">
-                <img src="/assets/services/about_1.png" alt="Equipos de protección personal de alta calidad" />
+                <img src="/assets/services/about_1.png" alt="Equipos de protección personal de alta calidad" loading="lazy" decoding="async" />
               </div>
               <div className="feature-accent"></div>
               <h3 className="feature-title">Alta Calidad</h3>
@@ -206,7 +206,7 @@ const Home = () => {
             
             <div className="feature-block">
               <div className="feature-image">
-                <img src="/assets/about_2.jpg" alt="Soluciones de seguridad industrial económicas" />
+                <img src="/assets/about_2.jpg" alt="Soluciones de seguridad industrial económicas" loading="lazy" decoding="async" />
               </div>
               <div className="feature-accent"></div>
               <h3 className="feature-title">Dentro del Presupuesto</h3>
@@ -218,7 +218,7 @@ const Home = () => {
             
             <div className="feature-block">
               <div className="feature-image">
-                <img src="/assets/about_3.jpg" alt="Entrega puntual de equipos de seguridad" />
+                <img src="/assets/about_3.jpg" alt="Entrega puntual de equipos de seguridad" loading="lazy" decoding="async" />
               </div>
               <div className="feature-accent"></div>
               <h3 className="feature-title">A Tiempo</h3>
@@ -280,7 +280,7 @@ const Home = () => {
             flexWrap: 'wrap' 
           }}>
             <a 
-              href="https://wa.me/573219714991" 
+              href="https://wa.me/573017071618" 
               target="_blank" 
               rel="noopener noreferrer"
               style={{ 

@@ -39,7 +39,7 @@ const WhoWeAre = () => {
             </h2>
             
             <p className="who-we-are-description">
-              En MIRACOR S.A.S., somos líderes en el sector de la construcción industrial y 
+              En Suministros Yodalis, somos líderes en el sector de la construcción industrial y 
               equipos de protección personal en la Costa Caribe colombiana. Nuestra 
               pasión por la excelencia y el compromiso con la seguridad nos han 
               convertido en el socio confiable de empresas que buscan soluciones 
@@ -66,15 +66,19 @@ const WhoWeAre = () => {
               <div className="image-main">
                 <img 
                   src="/assets/quienes_somos_1.jpg" 
-                  alt="Equipo de MIRACOR trabajando en construcción industrial" 
+                  alt="Equipo de Suministros Yodalis trabajando en construcción industrial" 
                   className="main-image"
+                  loading="lazy"
+                  decoding="async"
                 />
               </div>
               <div className="image-overlay">
                 <img 
                   src="/assets/quienes_somos_2.jpg" 
-                  alt="Instalaciones industriales de MIRACOR S.A.S." 
+                  alt="Instalaciones industriales de Suministros Yodalis" 
                   className="overlay-image"
+                  loading="lazy"
+                  decoding="async"
                 />
               </div>
             </div>

@@ -12,21 +12,21 @@ const Footer = () => {
         <div className="grid grid-4" style={{ marginBottom: '2rem' }}>
           {/* Información de la empresa */}
           <div>
-            <h4 style={{ color: 'var(--color-primary)', marginBottom: '1rem' }}>
-              MIRACOR S.A.S.
+            <h4 style={{ color: 'var(--color-white)', marginBottom: '1rem' }}>
+              SUMINISTROS YODALIS
             </h4>
             <p style={{ marginBottom: '1rem', opacity: 0.9 }}>
               Líderes en equipos de protección personal y construcción industrial 
               en Barranquilla, Colombia.
             </p>
             <div style={{ display: 'flex', gap: '1rem' }}>
-              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" style={{ color: '#fff' }}>
                 <Facebook size={20} />
               </a>
-              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" style={{ color: '#fff' }}>
                 <Instagram size={20} />
               </a>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" style={{ color: '#fff' }}>
                 <Linkedin size={20} />
               </a>
             </div>
@@ -34,7 +34,7 @@ const Footer = () => {
 
           {/* Enlaces rápidos */}
           <div>
-            <h4 style={{ color: 'var(--color-primary)', marginBottom: '1rem' }}>
+            <h4 style={{ color: 'var(--color-white)', marginBottom: '1rem' }}>
               Enlaces Rápidos
             </h4>
             <ul style={{ listStyle: 'none', padding: 0 }}>
@@ -63,7 +63,7 @@ const Footer = () => {
 
           {/* Servicios */}
           <div>
-            <h4 style={{ color: 'var(--color-primary)', marginBottom: '1rem' }}>
+            <h4 style={{ color: 'var(--color-white)', marginBottom: '1rem' }}>
               Servicios
             </h4>
             <ul style={{ listStyle: 'none', padding: 0 }}>
@@ -84,7 +84,7 @@ const Footer = () => {
 
           {/* Contacto */}
           <div>
-            <h4 style={{ color: 'var(--color-primary)', marginBottom: '1rem' }}>
+            <h4 style={{ color: 'var(--color-white)', marginBottom: '1rem' }}>
               Contacto
             </h4>
             <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
@@ -98,19 +98,19 @@ const Footer = () => {
               <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
                 <Phone size={16} />
                 <a 
-                  href="tel:+573219714991" 
+                  href="tel:+573017071618" 
                   style={{ color: 'var(--color-white)', opacity: 0.9, fontSize: '0.9rem' }}
                 >
-                  321 971 4991
+                  301 707 1618
                 </a>
               </div>
               <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
                 <Mail size={16} />
                 <a 
-                  href="mailto:atencionalcliente@miracor.com.co" 
+                  href="mailto:yodalismendozaelle@gmail.com" 
                   style={{ color: 'var(--color-white)', opacity: 0.9, fontSize: '0.9rem' }}
                 >
-                  atencionalcliente@miracor.com.co
+                  yodalismendozaelle@gmail.com
                 </a>
               </div>
             </div>
@@ -124,7 +124,7 @@ const Footer = () => {
           opacity: 0.7
         }}>
           <p style={{ margin: 0 }}>
-            © {new Date().getFullYear()} MIRACOR S.A.S. Todos los derechos reservados.
+            © {new Date().getFullYear()} Suministros Yodalis. Todos los derechos reservados.
           </p>
           <p style={{ margin: '0.5rem 0 0 0', fontSize: '0.8rem' }}>
             <a href="/privacidad" style={{ color: 'var(--color-white)', opacity: 0.7 }}>

@@ -67,7 +67,7 @@ const Products = () => {
             flexWrap: 'wrap'
           }}>
             <a 
-              href="https://wa.me/573219714991" 
+              href="https://wa.me/573017071618" 
               target="_blank" 
               rel="noopener noreferrer"
               style={{ 
@@ -148,7 +148,7 @@ const Products = () => {
                   Servicios especializados en planificación, supervisión y control de proyectos de construcción industrial.
                 </p>
                 <div className="service-image">
-                  <img src="/assets/services/supervision_tecnica_2.jpg" alt="Trabajadores revisando planos" />
+                  <img src="/assets/services/supervision_tecnica_2.jpg" alt="Trabajadores revisando planos" loading="lazy" decoding="async" />
                   <button className={`service-btn ${highlightedService === 1 ? 'highlighted' : ''}`}>
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
                       <path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" strokeWidth="2"/>
@@ -174,7 +174,7 @@ const Products = () => {
                   Diseño y planificación arquitectónica especializada para proyectos industriales y comerciales.
                 </p>
                 <div className="service-image">
-                  <img src="/assets/services/edificio_nacional.jpg" alt="Diseño arquitectónico industrial" />
+                  <img src="/assets/services/edificio_nacional.jpg" alt="Diseño arquitectónico industrial" loading="lazy" decoding="async" />
                   <button className={`service-btn ${highlightedService === 2 ? 'highlighted' : ''}`}>
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
                       <path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" strokeWidth="2"/>
@@ -199,7 +199,7 @@ const Products = () => {
                   Proyectos de construcción especializada para la industria con los más altos estándares de calidad.
                 </p>
                 <div className="service-image">
-                  <img src="/assets/services/planta_aditivos.webp" alt="Construcción industrial" />
+                  <img src="/assets/services/planta_aditivos.webp" alt="Construcción industrial" loading="lazy" decoding="async" />
                   <button className={`service-btn ${highlightedService === 3 ? 'highlighted' : ''}`}>
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
                       <path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" strokeWidth="2"/>
@@ -225,7 +225,7 @@ const Products = () => {
                   Asesoría especializada en seguridad industrial y optimización de procesos constructivos.
                 </p>
                 <div className="service-image">
-                  <img src="/assets/services/obras_civiles.png" alt="Consultoría técnica" />
+                  <img src="/assets/services/obras_civiles.png" alt="Consultoría técnica" loading="lazy" decoding="async" />
                   <button className={`service-btn ${highlightedService === 4 ? 'highlighted' : ''}`}>
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
                       <path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" strokeWidth="2"/>
@@ -251,7 +251,7 @@ const Products = () => {
                   Servicios de mantenimiento preventivo y correctivo para instalaciones industriales.
                 </p>
                 <div className="service-image">
-                  <img src="/assets/services/reparacion_plantas.jpg" alt="Mantenimiento industrial" />
+                  <img src="/assets/services/reparacion_plantas.jpg" alt="Mantenimiento industrial" loading="lazy" decoding="async" />
                   <button className={`service-btn ${highlightedService === 5 ? 'highlighted' : ''}`}>
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
                       <path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" strokeWidth="2"/>
@@ -277,7 +277,7 @@ const Products = () => {
                   Desarrollo de proyectos comerciales con enfoque en eficiencia y sostenibilidad.
                 </p>
                 <div className="service-image">
-                  <img src="/assets/services/centros_comerciales.jpg" alt="Proyectos comerciales" />
+                  <img src="/assets/services/centros_comerciales.jpg" alt="Proyectos comerciales" loading="lazy" decoding="async" />
                   <button className={`service-btn ${highlightedService === 6 ? 'highlighted' : ''}`}>
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
                       <path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" strokeWidth="2"/>
@@ -302,7 +302,7 @@ const Products = () => {
                   Suministro y asesoría en equipos de protección personal certificados.
                 </p>
                 <div className="service-image">
-                  <img src="/assets/services/chaleco_reflectivo.jpg" alt="Equipos de protección" />
+                  <img src="/assets/services/chaleco_reflectivo.jpg" alt="Equipos de protección" loading="lazy" decoding="async" />
                   <button className={`service-btn ${highlightedService === 7 ? 'highlighted' : ''}`}>
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
                       <path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" strokeWidth="2"/>
@@ -328,7 +328,7 @@ const Products = () => {
                   Implementación de tecnologías avanzadas en procesos de construcción industrial.
                 </p>
                 <div className="service-image">
-                  <img src="/assets/services/servicios_industriales.webp" alt="Innovación tecnológica" />
+                  <img src="/assets/services/servicios_industriales.webp" alt="Innovación tecnológica" loading="lazy" decoding="async" />
                   <button className={`service-btn ${highlightedService === 8 ? 'highlighted' : ''}`}>
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
                       <path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" strokeWidth="2"/>
@@ -382,7 +382,7 @@ const Products = () => {
             flexWrap: 'wrap'
           }}>
           <a 
-            href="https://wa.me/573219714991" 
+            href="https://wa.me/573017071618" 
             target="_blank" 
             rel="noopener noreferrer"
             style={{ 
@@ -590,7 +590,7 @@ const Products = () => {
           align-items: center;
           justify-content: center;
           margin-bottom: 1rem;
-          color: var(--color-primary);
+          color: var(--color-white);
         }
 
         .service-card-title {

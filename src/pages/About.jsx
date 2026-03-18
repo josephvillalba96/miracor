@@ -140,7 +140,7 @@ const About = () => {
               alignItems: 'center'
             }}>
               <a 
-                href="https://wa.me/573219714991" 
+                href="https://wa.me/573017071618" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 style={{ 
@@ -220,7 +220,7 @@ const About = () => {
             <div>
               <h2>Nuestra Historia</h2>
               <p style={{ fontSize: '1.1rem', marginBottom: '1.5rem' }}>
-                MIRACOR S.A.S. nació en 2014 en Barranquilla con una visión clara: 
+                Suministros Yodalis nació en 2014 en Barranquilla con una visión clara: 
                 ser la empresa líder en equipos de protección personal y servicios de construcción 
                 industrial en la Costa Caribe colombiana.
               </p>
@@ -485,7 +485,7 @@ const About = () => {
             flexWrap: 'wrap'
           }}>
             <a 
-              href="https://wa.me/573219714991" 
+              href="https://wa.me/573017071618" 
               target="_blank" 
               rel="noopener noreferrer"
               style={{ 

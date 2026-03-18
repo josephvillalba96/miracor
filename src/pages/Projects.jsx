@@ -172,6 +172,8 @@ const Projects = () => {
                     src={project.image} 
                     alt={project.title}
                     className="project-image"
+                    loading="lazy"
+                    decoding="async"
                   />
                   <div className="project-overlay">
                     <div className="project-category">
@@ -248,7 +250,7 @@ const Projects = () => {
             flexWrap: 'wrap' 
           }}>
             <a 
-              href="https://wa.me/573219714991" 
+              href="https://wa.me/573017071618" 
               target="_blank" 
               rel="noopener noreferrer"
               style={{ 

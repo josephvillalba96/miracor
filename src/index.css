@@ -2,12 +2,12 @@
 
 :root {
   /* Paleta de colores corporativa */
-  --color-primary: #f60;
-  --color-text: #090c02;
+  --color-primary: #000000;
+  --color-text: #1a1a1a;
   --color-white: #ffffff;
-  --color-gray-light: #f8f9fa;
-  --color-gray-medium: #6c757d;
-  --color-gray-dark: #343a40;
+  --color-gray-light: #f0f8ff; /* AliceBlue, un azul muy tenue */
+  --color-gray-medium: #8892b0;
+  --color-gray-dark: #0f172a; /* Un azul oscuro/negro para fondos oscuros */
   
   /* Tipografía */
   font-family: 'Montserrat', system-ui, Avenir, Helvetica, Arial, sans-serif;
