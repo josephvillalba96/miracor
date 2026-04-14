@@ -13,11 +13,18 @@ const Footer = () => {
           {/* Información de la empresa */}
           <div>
             <h4 style={{ color: 'var(--color-primary)', marginBottom: '1rem' }}>
-              MIRACOR S.A.S.
+              SUMINISTROS MIRACOR S.A.S.
             </h4>
+            <p style={{ marginBottom: '0.5rem', opacity: 0.9 }}>
+              MICROEMPRESA - Decreto 1074 de 2015
+            </p>
             <p style={{ marginBottom: '1rem', opacity: 0.9 }}>
-              Líderes en equipos de protección personal y construcción industrial 
+              Líderes en equipos de protección personal (EPP) y seguridad industrial 
               en Barranquilla, Colombia.
+            </p>
+            <p style={{ marginBottom: '1rem', opacity: 0.7, fontSize: '0.85rem' }}>
+              NIT: 900.778.922-1<br/>
+              CIIU: 4752 | 4663
             </p>
             <div style={{ display: 'flex', gap: '1rem' }}>
               <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
@@ -50,7 +57,17 @@ const Footer = () => {
               </li>
               <li style={{ marginBottom: '0.5rem' }}>
                 <Link to="/productos" style={{ color: 'var(--color-white)', opacity: 0.9 }}>
-                  Productos
+                  Catálogo EPP
+                </Link>
+              </li>
+              <li style={{ marginBottom: '0.5rem' }}>
+                <Link to="/servicios" style={{ color: 'var(--color-white)', opacity: 0.9 }}>
+                  Servicios Técnicos
+                </Link>
+              </li>
+              <li style={{ marginBottom: '0.5rem' }}>
+                <Link to="/construccion" style={{ color: 'var(--color-white)', opacity: 0.9 }}>
+                  Construcción
                 </Link>
               </li>
               <li style={{ marginBottom: '0.5rem' }}>
@@ -64,20 +81,26 @@ const Footer = () => {
           {/* Servicios */}
           <div>
             <h4 style={{ color: 'var(--color-primary)', marginBottom: '1rem' }}>
-              Servicios
+              Nuestros Servicios
             </h4>
             <ul style={{ listStyle: 'none', padding: 0 }}>
               <li style={{ marginBottom: '0.5rem', opacity: 0.9 }}>
                 Equipos de Protección Personal
               </li>
               <li style={{ marginBottom: '0.5rem', opacity: 0.9 }}>
-                Ropa de Seguridad Industrial
-              </li>
-              <li style={{ marginBottom: '0.5rem', opacity: 0.9 }}>
-                Construcción Industrial
+                Vestimenta de Seguridad
               </li>
               <li style={{ marginBottom: '0.5rem', opacity: 0.9 }}>
                 Asesoría Técnica
+              </li>
+              <li style={{ marginBottom: '0.5rem', opacity: 0.9 }}>
+                Mantenimiento y Reparación
+              </li>
+              <li style={{ marginBottom: '0.5rem', opacity: 0.9 }}>
+                Capacitaciones
+              </li>
+              <li style={{ marginBottom: '0.5rem', opacity: 0.9 }}>
+                Certificaciones
               </li>
             </ul>
           </div>
@@ -91,26 +114,33 @@ const Footer = () => {
               <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
                 <MapPin size={16} />
                 <span style={{ opacity: 0.9, fontSize: '0.9rem' }}>
-                  CR 53 # 75 - 138 OF 17, Piso 2<br />
+                  CR 53 75 138 OF 17 P 2<br />
+                  Barranquilla, Colombia
+                </span>
+              </div>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                <MapPin size={16} />
+                <span style={{ opacity: 0.9, fontSize: '0.9rem' }}>
+                  Crr 46 No. 39-16, Centro<br />
                   Barranquilla, Colombia
                 </span>
               </div>
               <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
                 <Phone size={16} />
                 <a 
-                  href="tel:+573219714991" 
+                  href="tel:+573212461567" 
                   style={{ color: 'var(--color-white)', opacity: 0.9, fontSize: '0.9rem' }}
                 >
-                  321 971 4991
+                  321 246 1567
                 </a>
               </div>
               <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
                 <Mail size={16} />
                 <a 
-                  href="mailto:atencionalcliente@miracor.com.co" 
+                  href="mailto:constructoramiracor@gmail.com" 
                   style={{ color: 'var(--color-white)', opacity: 0.9, fontSize: '0.9rem' }}
                 >
-                  atencionalcliente@miracor.com.co
+                  constructoramiracor@gmail.com
                 </a>
               </div>
             </div>

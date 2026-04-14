@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import { Menu, X, ChevronDown } from 'lucide-react'
+import CartWidget from './CartWidget'
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -13,7 +14,9 @@ const Header = () => {
   const navItems = [
     { path: '/', label: 'Inicio' },
     { path: '/nosotros', label: 'Nosotros' },
-    { path: '/productos', label: 'Servicios' },
+    { path: '/productos', label: 'Catálogo' },
+    { path: '/servicios', label: 'Servicios' },
+    { path: '/construccion', label: 'Construcción' },
     { path: '/contacto', label: 'Contacto' }
   ]
 
@@ -32,8 +35,8 @@ const Header = () => {
               </svg>
             </div>
             <div className="logo-text">
-              <span className="logo-main">MIRACOR</span>
-              <span className="logo-accent">S.A.S.</span>
+              <span className="logo-main">SUMINISTROS</span>
+              <span className="logo-accent">MIRACOR S.A.S.</span>
             </div>
           </Link>
           
@@ -52,6 +55,8 @@ const Header = () => {
             ))}
           </nav>
 
+          {/* Cart Widget */}
+          <CartWidget />
 
           {/* Mobile Menu Button */}
           <button 

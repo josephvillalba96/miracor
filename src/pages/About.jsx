@@ -140,7 +140,7 @@ const About = () => {
               alignItems: 'center'
             }}>
               <a 
-                href="https://wa.me/573219714991" 
+                href="https://wa.me/573212461567" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 style={{ 
@@ -220,20 +220,34 @@ const About = () => {
             <div>
               <h2>Nuestra Historia</h2>
               <p style={{ fontSize: '1.1rem', marginBottom: '1.5rem' }}>
-                MIRACOR S.A.S. nació en 2014 en Barranquilla con una visión clara: 
+                <strong>SUMINISTROS MIRACOR S.A.S.</strong> (anteriormente CONSTRUCTORA MIRACOR S.A.S.) 
+                fue fundada el <strong>16 de septiembre de 2014</strong> en Barranquilla con una visión clara: 
                 ser la empresa líder en equipos de protección personal y servicios de construcción 
                 industrial en la Costa Caribe colombiana.
               </p>
               <p style={{ marginBottom: '1.5rem' }}>
-                Desde nuestros inicios, nos hemos caracterizado por ofrecer productos de la más 
-                alta calidad, asesoría técnica especializada y un compromiso inquebrantable con 
-                la seguridad de los trabajadores.
+                En <strong>2025</strong>, mediante <strong>Acta 02-2025</strong>, completamos nuestra transformación 
+                estatutaria para reflejar nuestro nuevo enfoque en el comercio de EPP y artículos de 
+                seguridad industrial, manteniendo viva nuestra experiencia en construcción.
               </p>
               <p>
                 Hoy, con más de una década de experiencia, hemos consolidado nuestra posición 
                 como referente en el sector, atendiendo a empresas de todos los tamaños y 
                 contribuyendo al desarrollo industrial de la región.
               </p>
+              <div style={{
+                marginTop: '1.5rem',
+                padding: '1rem',
+                background: 'var(--color-gray-light)',
+                borderRadius: '8px',
+                borderLeft: '4px solid var(--color-primary)'
+              }}>
+                <p style={{ margin: 0, fontSize: '0.9rem' }}>
+                  <strong>NIT:</strong> 900.778.922-1<br/>
+                  <strong>CIIU:</strong> 4752 (Comercio minorista) | 4663 (Comercio mayorista)<br/>
+                  <strong>Clasificación:</strong> MICROEMPRESA - Decreto 1074 de 2015
+                </p>
+              </div>
             </div>
             <div style={{ 
               background: 'var(--color-gray-light)', 
@@ -485,7 +499,7 @@ const About = () => {
             flexWrap: 'wrap'
           }}>
             <a 
-              href="https://wa.me/573219714991" 
+              href="https://wa.me/573212461567" 
               target="_blank" 
               rel="noopener noreferrer"
               style={{ 
