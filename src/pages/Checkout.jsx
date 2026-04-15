@@ -44,6 +44,17 @@ const iconWrapStyle = {
   alignItems: 'center',
 }
 
+const FieldWrapper = ({ children, error }) => (
+  <div style={{ marginBottom: error ? '0.25rem' : '1.25rem' }}>
+    {children}
+    {error && (
+      <span style={{ fontSize: '0.8rem', color: '#ef4444', marginTop: '0.3rem', display: 'block' }}>
+        {error}
+      </span>
+    )}
+  </div>
+)
+
 const Checkout = () => {
   const navigate = useNavigate()
   const { items, subtotal, iva, total, clearCart } = useCart()
@@ -135,16 +146,6 @@ const Checkout = () => {
     })
   }
 
-  const FieldWrapper = ({ children, error }) => (
-    <div style={{ marginBottom: error ? '0.25rem' : '1.25rem' }}>
-      {children}
-      {error && (
-        <span style={{ fontSize: '0.8rem', color: '#ef4444', marginTop: '0.3rem', display: 'block' }}>
-          {error}
-        </span>
-      )}
-    </div>
-  )
 
   return (
     <main style={{ padding: '2rem 0 4rem', background: '#f8fafc', minHeight: '100vh' }}>
